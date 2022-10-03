@@ -1,0 +1,413 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Poppins', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+
+.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+.row{
+	width: 100%;
+	float: left;
+}
+.col-3{
+	width: 25%;
+	float: left;
+}
+.col-4{
+	width: 33.33%;
+	float: left;
+}
+.col-6{
+	width: 50%;
+	float: left;
+}
+.col-12{
+	width: 100%;
+	float: left;
+
+}
+/* global css ends */
+/* header coding starts */
+
+.header{
+	width: 97%;
+	float: left;
+	padding: 20px;
+}
+.header img{
+	width: 120px;
+	float: left;
+}
+.header .navbar{
+	width: 100%;
+	float: left;
+
+}
+.header .navbar li{
+	list-style: none;
+	display: inline-block;
+}
+.header .navbar li a{
+	font-size: 14px;
+	font-weight: 600;
+	color: #303841;
+	margin: 0px 25px 0px 5px;
+	text-transform: capitalize;
+	text-align:left;
+}
+
+.header .navbar li a:hover, .header .navbar li a:focus{
+	color: #FF6162 ;
+	transition: 1s;
+
+}
+
+.btn{
+	text-align: center;
+	width: 150px;
+	font-size: 14px;
+	font-weight: 600;
+	background: #FF6162;
+	padding: 12px 0px;
+	color: #ffffff;
+	border: none;
+	float: right;
+
+
+}
+/* header coding ends */
+/* banner section coding starts */
+.banner{
+	width: 100%;
+	float: left;
+	padding: 80px 0px;
+}
+.banner-left{
+	width: 90%;
+	float: left;
+}
+.banner-left h2{
+	font-size: 40px;
+	line-height: 50px;
+	font-weight:700 ;
+	color: #25243F;
+	padding: 0px 0px 20px;
+	text-transform: capitalize;
+}
+.banner-left p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #C0BBBD;
+}
+.arrow-icon{
+	width: 100%;
+	margin: 15px 0px;
+	
+}
+.arrow-icon a{
+	border: 1px solid #C0BBBD;
+	border-radius: 100%;
+	background: transparent;
+	font-size: 12px;
+
+}
+.arrow-icon i{
+	color:#C0BBBD ;
+	width: 20px;
+	text-align: center;
+}
+/* banner section coding ends */
+/* demo section coding starts */
+.demo{
+	width: 100%;
+	float: left;
+	padding: 50px 0px;
+}
+.demo-intro{
+	width: 100%;
+	text-align: center;
+}
+.demo-intro h3{
+	font-size: 25px;
+	line-height: 35px;
+	color: #23213D;
+	font-weight: 700;
+	text-transform: capitalize;
+}
+.demo-intro p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #C0BBBD;
+	text-transform: lowercase;
+	font-weight: 500;
+	font-weight: 700;
+	padding: 20px 0px;
+
+}
+.demo-image{
+	width: 100%;
+	float: left;
+	padding: 60px 0px;
+}
+.demo-image img{
+	width: 250px;
+	height:350px;
+	border: 1px solid #C0BBBD;
+}
+.demo-image h4{
+	text-align: center;
+	color:#56595A ;
+}
+
+/* demo section coding ends */
+/* feature section coding starts */
+
+.feature{
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+.feature h3{
+	font-size: 25px;
+	line-height: 35px;
+	color: #23213D;
+	font-weight: 700;
+	text-transform: capitalize;
+
+}
+.feature p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #C0BBBD;
+	text-transform: lowercase;
+	font-weight: 500;
+	padding: 20px 0px;
+	font-weight: 700;
+
+
+}
+
+
+/* feature section coding ends */
+/* feature-card section coding starts */
+.feature-card{
+	width: 94%;
+	float: left;
+	margin: 50px 80px;
+	text-align: center;
+}
+.feature-card .card-design{
+	width: 80%;
+	height:250px;
+	text-align: center;
+	background: #F5F5F5;
+	margin: 8px -20px;
+	padding: 20px 30px;
+
+}
+.feature-card .card-design i{
+	color: #FF5758;
+	font-size: 28px;
+	border: 2px solid #ffffff;
+	width: 65px;
+	height: 50px;
+	text-align: center;
+	background: #ffffff;
+	margin: 20px 0px;
+	padding: 20px 0px 0px;
+	border-radius: 100%;
+
+}
+.feature-card .card-design h5{
+	font-size: 15px;
+	line-height: 25px;
+	color: #23213D;
+	font-weight: 700;
+	text-transform: capitalize;
+
+}
+.feature-card .card-design p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #C0BBBD;
+	text-transform: lowercase;
+	font-weight: 500;
+	padding: 20px 0px;
+	font-weight: 500;
+}
+
+
+/* feature-card section coding ends */
+/* footer coding starts */
+.footer{
+	width: 100%;
+	float: left;
+	text-align: center;
+	padding: 50px 0px;
+	background: #292640;
+}
+.footer h2{
+	font-size: 40px;
+	line-height: 50px;
+	font-weight:700 ;
+	color: #ffffff;
+	padding: 0px 0px 20px;
+	text-transform: capitalize;
+
+}
+.footer .btn{
+	text-align: center;
+	width: 150px;
+	font-size: 14px;
+	font-weight: 600;
+	background: #FF6162;
+	padding: 12px 0px;
+	color: #ffffff;
+	border: none;
+	float: left;
+	margin: 30px 500px;
+
+}
+/* footer coding ends */
+/* demo page coding starts */
+
+.demos{
+	width: 100%;
+	float: left;
+	padding: 80px 0px;
+}
+.demos h1{
+	font-size: 40px;
+	line-height: 50px;
+	font-weight:700 ;
+	color: #9B8654;
+	padding: 0px 0px 20px;
+	text-transform: capitalize;
+	text-align: center;
+	padding: 30px 0px;
+
+}
+.demos img{
+	width: 600px;
+	float: left;
+	text-align: center;
+	padding: 60px 270px;
+
+}
+.demos p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #9B8654;
+	margin: 40px 0px;
+
+}
+/* demo page coding ends */
+/* feature page coding starts */
+
+.features{
+	width: 100%;
+	float: left;
+	padding: 80px 0px;
+}
+.features h1{
+	font-size: 40px;
+	line-height: 50px;
+	font-weight:700 ;
+	color: #0F1425;
+	padding: 0px 0px 20px;
+	text-transform: uppercase;
+	padding: 30px 0px;
+	letter-spacing: 5px;
+
+}
+.features img{
+	width: 100%;
+	float: left;
+}
+
+.features .img-fluid{
+	width: 600px;
+	padding: 30px 30px 30px 0px;
+}
+
+
+.features p{
+	font-size: 18px;
+	line-height: 28px;
+	color: #0F1425;
+	margin: 25px 45px;
+	
+
+}
+/* feature page coding ends */
+/* documentations page coding starts */
+.documentations{
+	padding: 150px 0px;
+	width: 100%;
+
+	
+}
+.documentations .ghorar-dim-left{
+	width: 80%;
+	
+}
+.documentations .ghorar-dim-left h1{
+	font-size: 54px;
+	line-height: 64px;
+	margin: 40px 35px 40px 0px;
+	color: #E43C30;
+	text-transform: capitalize;
+	
+}
+.documentations .ghorar-dim-left p{
+	font-size: 14px;
+	line-height: 24px;
+
+	
+}
+.documentations .ghorar-dim-right{
+	width: 80%;
+
+	
+}
+.documentations .ghorar-dim-right h1{
+	font-size: 54px;
+	line-height: 64px;
+	margin: 40px 0px 40px 65px;
+	color: #14234B;
+	text-transform: capitalize;
+	
+
+} 
+.read{
+	width: 100%;
+	float: left;
+	padding: 60px 0px;
+}
+.read img{
+	width: 800px;
+	padding-left: 160px;
+
+}
+.read h6{
+	font-size: 14px;
+	padding-left: 160px;
+
+}
+/* documentations page coding ends */
+
+
